@@ -1,0 +1,101 @@
+.navBar {
+  background-color: #CEB888;
+
+  display: flex;
+  position: -webkit-sticky;
+  justify-content: center;
+  align-items: center;
+
+  top: 0px;
+  margin-inline: 0px;
+  padding-block: 5px;
+  height: 50px;
+}
+
+.btn {
+  background-color: transparent;
+
+  border: 0cm;
+  margin: 0px;
+
+  font-family: inherit;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.navBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline: 20px;
+  
+  font-size: 16px;
+}
+
+.navBtn:hover {
+  transition: 0.2s ease-in;
+  text-decoration: underline;
+}
+
+.activeBtn {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #CEB888;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.socialLogo {
+  padding-inline: 13px;
+  filter: grayscale(100%) brightness(60%) contrast(5);
+}
+
+#mindLogoBtn {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#mindLogo {
+  width: inherit;
+  height: inherit;
+}
+
+#socials {
+  margin-top: 60px;
+}
+
+#facebookLogo {
+  width: 35px;
+  height: 35px;
+}
+
+#instagramLogo {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 2px;
+}
+
+#twitterLogo {
+  width: 35px;
+  height: 30px;
+  margin-bottom: 2px;
+}
+
+#youtubeLogo {
+  width: 33px;
+  height: 26px;
+  margin-bottom: 3px;
+}

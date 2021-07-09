@@ -1,0 +1,78 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.break {
+  height: 7px;
+  width: 35vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-inline: auto;
+
+  background-color: #CEB888;
+}
+
+#homeHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+  text-align: center;
+}
+
+#slideshowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 500px;
+  width: fit-content;
+  margin-inline: auto;
+
+  background-color: #00000020;
+}
+
+#slideshow {
+  height: 500px;
+  width: 750px;
+
+  background-color: #00000020;
+}
+
+#nextMeeting {
+  text-align: center;
+  border: 5px solid #CEB888;
+  height: fit-content;
+  width: 50vw;
+}
+
+#meetingInfo {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+#locationTxt {
+  margin-left: 5vw;
+  margin-right: auto;
+}
+
+#dateTxt {
+  margin-right: 5vw;
+  margin-left: auto;
+}
+
+#breakBeforeEvents {
+  margin-bottom: 33px;
+}
+
+#eventsTxt {
+  line-height: 0px;
+}
+
+#calendar {
+  margin-bottom: 50px;
+}
