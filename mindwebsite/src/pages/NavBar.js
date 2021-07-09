@@ -4,7 +4,12 @@ import facebookLogo from '../assets/logos/facebook.png'
 import instagramLogo from '../assets/logos/instagram.png'
 import twitterLogo from '../assets/logos/twitter.png'
 import youtubeLogo from '../assets/logos/youtube.png'
+
 import HomePage from './home/HomePage'
+import AboutPage from './about/AboutPage'
+import ProjectsPage from './projects/ProjectsPage'
+import AlumniPage from './alumni/AlumniPage'
+import ContactPage from './contact/ContactPage'
 
 import React, { useState } from 'react';
 import {
@@ -69,8 +74,20 @@ export default function NavBar() {
         </div>
 
         <Switch>
-          <Route path='/'>
-            <HomePage />
+          <Route exact path='/'>
+            <HomePage/>
+          </Route>
+          <Route path='/AboutUs'>
+            <AboutPage/>
+          </Route>
+          <Route path='/Projects'>
+            <ProjectsPage/>
+          </Route>
+          <Route path='/Alumni'>
+            <AlumniPage/>
+          </Route>
+          <Route path='/Contact'>
+            <ContactPage/>
           </Route>
         </Switch>
 
