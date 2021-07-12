@@ -5,3 +5,12 @@
 
   text-align: center;
 }
+
+#profilePic {
+  width: 300px;
+  overflow: hidden;
+}
+
+.crop img {
+  margin: 0 0 0 0;
+}

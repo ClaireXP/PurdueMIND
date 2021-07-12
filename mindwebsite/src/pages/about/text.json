@@ -1,0 +1,58 @@
+{
+    "aboutText": "Purdue MIND’s purpose is to promote and grow the biomedical engineering community at Purdue by providing undergraduate students the opportunity to engage in hands-on activities, discuss current research, and network with a wide range of faculty both within and outside of Purdue including professors, physicians, and engineers. We are a unique, multidisciplinary student organization that seeks to innovate and develop medical technology. Our overall goals are listed below:",
+
+    "goal1": "To give Purdue undergraduates extensive experience with medical technology market research, design, prototyping, validation, regulatory approval, intellectual property management, and transition to market.",
+
+    "goal2": "To allow highly motivated students to network with each other and with professors and medical professionals and to collaborate on a significant, long-term, medically-focused project.",
+
+    "goal3": "To recognize the work done on the project through submission to national design competitions.",
+
+    "pres": 
+    {   
+        "name": "Jenna Munshi",
+        "pos" : "President",
+        "desc": "Yo."
+    },
+
+    "vice": 
+    {
+        "name": "Kevin Bautista",
+        "pos" : "Vice President",
+        "desc": "Bro."
+    },
+
+    "trea":
+    {
+        "name": "Akio Fujita",
+        "pos" : "Treasurer",
+        "desc": "Joe."
+    },
+
+    "secr":
+    {
+        "name": "Kyle Chang",
+        "pos" : "Secretary",
+        "desc": "Moe."
+    },
+
+    "entr":
+    {
+        "name": "Elyssia Wellington",
+        "pos" : "Director of Entrepreneurship & Ideation",
+        "desc": "Boe."
+    },
+
+    "rdev":
+    {
+        "name": "Matthew Starobat",
+        "pos" : "Director of Research & Development",
+        "desc": "Poe."
+    },
+
+    "nete":
+    {
+        "name": "Claire Poukey",
+        "pos" : "Director of Networking & Events",
+        "desc": "Doe."
+    }
+}
