@@ -19,6 +19,7 @@ import hoilettPic from '../../assets/logos/dr-hoilett.png'
 import mazinPic   from '../../assets/logos/default.jpeg'
 
 import OfficerProfile from './OfficerProfile';
+import SeniorExecProfile from './SeniorExecProfile';
 
 let jsonData = require('./text.json');
 
@@ -43,7 +44,7 @@ export default function AboutPage() {
       </div>
 
       <div className='officersInfo'>
-        <h2>MIND Officers</h2>
+        <h2 className='subHeader'>MIND Officers</h2>
         <OfficerProfile name={jsonData.pres.name} pos={jsonData.pres.pos} desc={jsonData.pres.desc} image={presPic} />
         <OfficerProfile name={jsonData.vice.name} pos={jsonData.vice.pos} desc={jsonData.vice.desc} image={vicePic} />
         <OfficerProfile name={jsonData.trea.name} pos={jsonData.trea.pos} desc={jsonData.trea.desc} image={treaPic} />
@@ -54,15 +55,15 @@ export default function AboutPage() {
       </div>
 
       <div className='seniorExecsInfo'>
-        <h2>MIND Senior Executives</h2>
-        <OfficerProfile name={"Damen Wilson"}       pos={""} desc={jsonData.pres.desc} image={damenPic } />
-        <OfficerProfile name={"Jack Stickney"}      pos={""} desc={jsonData.vice.desc} image={jackPic  } />
-        <OfficerProfile name={"Parker van Emmerik"} pos={""} desc={jsonData.trea.desc} image={parkerPic} />
-        <OfficerProfile name={"Scott Kenning"}      pos={""} desc={jsonData.secr.desc} image={scottPic } />
+        <h2 className='subHeader'>MIND Senior Executives</h2>
+        <SeniorExecProfile name={"Damen Wilson"}       desc={jsonData.seniorExec.damen.desc} image={damenPic } />
+        <SeniorExecProfile name={"Jack Stickney"}      desc={jsonData.seniorExec.jack.desc} image={jackPic  } />
+        <SeniorExecProfile name={"Parker van Emmerik"} desc={jsonData.seniorExec.parker.desc} image={parkerPic} />
+        <SeniorExecProfile name={"Scott Kenning"}      desc={jsonData.seniorExec.scott.desc} image={scottPic } />
       </div> 
 
       <div className='advisorsInfo'>
-        <h2>MIND Advisors</h2>
+        <h2 className='subHeader'>MIND Advisors</h2>
         <OfficerProfile name={"Dr. Hyowon Lee"}      pos={""} desc={jsonData.pres.desc} image={leePic    } />
         <OfficerProfile name={"Dr. Orlando Hoilett"} pos={""} desc={jsonData.vice.desc} image={hoilettPic} />
         <OfficerProfile name={"Mazin Hakim"}         pos={""} desc={jsonData.trea.desc} image={mazinPic  } />

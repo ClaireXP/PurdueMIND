@@ -14,3 +14,57 @@
 .crop img {
   margin: 0 0 0 0;
 }
+
+.subHeader {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 5px;
+
+  text-align: center;
+}
+
+#boxProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 10%;
+  width: 50%;
+  border: 1px solid #ceb888;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#boxProfileText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+
+#name {
+  text-align: left;
+  font-weight: bold;
+  line-height: normal;
+}
+
+#pos {
+  text-align: left;
+  line-height: normal;
+}
+
+#desc {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 0px;
+  text-align: left;
+}
+
+.officersInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

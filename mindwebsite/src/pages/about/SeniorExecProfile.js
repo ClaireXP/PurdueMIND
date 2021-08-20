@@ -1,7 +1,7 @@
 import './AboutPage.css';
 import '../../App.css';
 
-export default function OfficerProfile({name, pos, desc, image}) {
+export default function SeniorExecProfile({name, desc, image}) {
     return (
       <div id='boxProfile'>
   
@@ -11,7 +11,6 @@ export default function OfficerProfile({name, pos, desc, image}) {
 
         <div id='boxProfileText'>
           <h3 id='name'>{name}</h3>
-          <h4 id='pos'>{pos}</h4>
           <p id='desc'>{desc}</p>
         </div>
   
