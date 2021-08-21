@@ -20,8 +20,9 @@ import mazinPic   from '../../assets/logos/default.jpeg'
 
 import OfficerProfile from './OfficerProfile';
 import SeniorExecProfile from './SeniorExecProfile';
+import AdvisorProfile from './AdvisorProfile';
 
-let jsonData = require('./text.json');
+let jsonData = require('../text.json');
 
 export default function AboutPage() {
   return (
@@ -56,18 +57,18 @@ export default function AboutPage() {
 
       <div className='seniorExecsInfo'>
         <h2 className='subHeader'>MIND Senior Executives</h2>
-        <SeniorExecProfile name={"Damen Wilson"}       desc={jsonData.seniorExec.damen.desc} image={damenPic } />
-        <SeniorExecProfile name={"Jack Stickney"}      desc={jsonData.seniorExec.jack.desc} image={jackPic  } />
-        <SeniorExecProfile name={"Parker van Emmerik"} desc={jsonData.seniorExec.parker.desc} image={parkerPic} />
-        <SeniorExecProfile name={"Scott Kenning"}      desc={jsonData.seniorExec.scott.desc} image={scottPic } />
+        <SeniorExecProfile name={"Damen Wilson"}       desc={jsonData.seniorExec.damen.desc}    image={damenPic } />
+        <SeniorExecProfile name={"Jack Stickney"}      desc={jsonData.seniorExec.jack.desc}     image={jackPic  } />
+        <SeniorExecProfile name={"Parker van Emmerik"} desc={jsonData.seniorExec.parker.desc}   image={parkerPic} />
+        <SeniorExecProfile name={"Scott Kenning"}      desc={jsonData.seniorExec.scott.desc}    image={scottPic } />
       </div> 
 
       <div className='advisorsInfo'>
         <h2 className='subHeader'>MIND Advisors</h2>
-        <OfficerProfile name={"Dr. Hyowon Lee"}      pos={""} desc={jsonData.pres.desc} image={leePic    } />
-        <OfficerProfile name={"Dr. Orlando Hoilett"} pos={""} desc={jsonData.vice.desc} image={hoilettPic} />
-        <OfficerProfile name={"Mazin Hakim"}         pos={""} desc={jsonData.trea.desc} image={mazinPic  } />
-      </div> 
+        <AdvisorProfile name={"Dr. Hyowon Lee"}      desc={jsonData.pres.desc} image={leePic    } />
+        <AdvisorProfile name={"Dr. Orlando Hoilett"} desc={jsonData.vice.desc} image={hoilettPic} />
+        <AdvisorProfile name={"Mazin Hakim"}         desc={jsonData.trea.desc} image={mazinPic  } />
+      </div>
 
     </div>
   );

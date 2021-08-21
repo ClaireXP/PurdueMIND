@@ -60,22 +60,22 @@
     {
         "damen":
         {
-            "desc": "I am Damen."
+            "desc": "I am majoring in Biomedical Engineering at Purdue."
         },
 
         "jack":
         {
-            "desc": "I am Jack."
+            "desc": "I am majoring in Biomedical Engineering at Purdue."
         },
 
         "parker":
         {
-            "desc": "I am Parker."
+            "desc": "I am majoring in Biomedical Engineering at Purdue."
         },
 
         "scott":
         {
-            "desc": "I am Scott."
+            "desc": "I am majoring in Electrical Engineering at Purdue."
         }
     }
 }
