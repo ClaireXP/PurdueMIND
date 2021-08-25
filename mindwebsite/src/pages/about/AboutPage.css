@@ -1,7 +1,112 @@
 .aboutPage {
+  padding: 0px 20px 20px 20px;
+  align-content: center;
+}
+
+.aboutInfo {
+  padding: 0% 10% 0% 10%;
+}
+
+#aboutHeader {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+#profilePic {
+  width: 300px;
+  overflow: hidden;
+}
+
+.crop {
+  width: 50%;
+}
+
+.crop img {
+  margin: 0 0 0 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.subHeader {
+  /* margin-top: 40px;
+  margin-bottom: 40px; */
+  padding: 5px;
+  text-align: center;
+}
+
+#boxProfile {
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
   align-items: center;
+  column-gap: 10%;
+  width: 50%;
+  border: 1px solid #ceb888;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#boxProfileInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0px 10px 0px 10px;
+}
+
+#boxProfileText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 50%; */
+  margin-left: 15px;
+  /* border: 1px solid #ceb888; */
+}
+
+#name {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#pos {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  overflow-wrap: normal;
+  line-height: 24px;
+  /* border: 1px solid #ceb888; */
+}
+
+#desc {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  text-align: left;
+  /* border: 1px solid #ceb888; */
+  padding-left: 0.5px;
+}
+
+.officersInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seniorExecsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advisorsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
