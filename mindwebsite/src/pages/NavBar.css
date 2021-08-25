@@ -1,5 +1,5 @@
 .navBar {
-  background-color: #CEB888;
+  background-color: #000000;
 
   display: flex;
   position: -webkit-sticky;
@@ -14,6 +14,7 @@
 
 .btn {
   background-color: transparent;
+  color: #c9b38c;
 
   border: 0cm;
   margin: 0px;
@@ -42,27 +43,11 @@
   text-decoration: underline;
 }
 
-.footer {
-  background-color: #CEB888;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 15px;
-}
-
-.socialLogo {
-  padding-inline: 13px;
-  filter: grayscale(100%) brightness(60%) contrast(5);
-}
-
 #mindLogoBtn {
   position: absolute;
   left: 4px;
   top: 4px;
 
-  width: 50px;
   height: 50px;
   padding: 0px;
   margin: 0px;
@@ -71,31 +56,4 @@
 #mindLogo {
   width: inherit;
   height: inherit;
-}
-
-#socials {
-  margin-top: 60px;
-}
-
-#facebookLogo {
-  width: 35px;
-  height: 35px;
-}
-
-#instagramLogo {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 2px;
-}
-
-#twitterLogo {
-  width: 35px;
-  height: 30px;
-  margin-bottom: 2px;
-}
-
-#youtubeLogo {
-  width: 33px;
-  height: 26px;
-  margin-bottom: 3px;
 }

@@ -1,6 +1,17 @@
 import './HomePage.css';
 import '../../App.css';
 
+import pic1 from '../../assets/slideCarousel/pic1.jpeg';
+import pic2 from '../../assets/slideCarousel/pic2.jpeg';
+import pic3 from '../../assets/slideCarousel/pic3.jpeg';
+import pic4 from '../../assets/slideCarousel/pic4.jpeg';
+import pic5 from '../../assets/slideCarousel/pic5.jpeg';
+import pic6 from '../../assets/slideCarousel/pic6.jpeg';
+import pic7 from '../../assets/slideCarousel/pic7.jpeg';
+
+import Carousel from 'react-img-carousel';
+require('react-img-carousel/lib/carousel.css');
+
 export default function HomePage() {
   return (
     <div className='homePage'>
@@ -10,7 +21,15 @@ export default function HomePage() {
       </div>
 
       <div id='slideshowContainer'>
-        <img id='slideshow' alt='MIND Slideshow'></img>
+        <Carousel autoplay='true' autoplaySpeed='3500' slideHeight='300px' cellPadding={ 5 }>
+          <img alt='' src={pic1}/>
+          <img alt='' src={pic2}/>
+          <img alt='' src={pic3}/>
+          <img alt='' src={pic4}/>
+          <img alt='' src={pic5}/>
+          <img alt='' src={pic6}/>
+          <img alt='' src={pic7}/>
+        </Carousel>
       </div>
 
       <div className='break'/>
@@ -26,7 +45,7 @@ export default function HomePage() {
 
           <div id='dateTxt'>
             <h4>Date:</h4>
-            <h3>Nov. 20, 2020</h3>
+            <h3>Thursday @6:30pm</h3>
           </div>
         </div>
       </div>
