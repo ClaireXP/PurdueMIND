@@ -38,7 +38,7 @@ export default function ProjectsPage() {
   );
 };
 
-function getProjects(projects, section) {
+function getProjects(projects) {
   const formattedProjects = [];
   for (const index in projects) {
     const project = projects[index];

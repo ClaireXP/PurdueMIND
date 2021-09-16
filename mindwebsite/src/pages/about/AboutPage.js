@@ -1,28 +1,35 @@
 import './AboutPage.css';
 import '../../App.css';
 
-import presPic from '../../assets/logos/jenna.png'
-import vicePic from '../../assets/logos/kevin.png'
-import treaPic from '../../assets/logos/akio.png'
-import secrPic from '../../assets/logos/kyle.png'
-import entrPic from '../../assets/logos/elyssia.png'
-import rdevPic from '../../assets/logos/matthew.png'
-import netePic from '../../assets/logos/claire.png'
+import pres from '../../assets/headshots/jenna.png'
+import vice from '../../assets/headshots/kevin.png'
+import treasurer from '../../assets/headshots/akio.png'
+import secretary from '../../assets/headshots/kyle.png'
+import eNi from '../../assets/headshots/elyssia.png'
+import rNd from '../../assets/headshots/matthew.png'
+import nNe from '../../assets/headshots/claire.png'
 
-import damenPic  from '../../assets/logos/damen.png'
-import jackPic   from '../../assets/logos/default.jpeg'
-import parkerPic from '../../assets/logos/default.jpeg'
-import scottPic  from '../../assets/logos/default.jpeg'
+import damen from '../../assets/headshots/damen.png'
 
-import leePic     from '../../assets/logos/dr-lee.png'
-import hoilettPic from '../../assets/logos/dr-hoilett.png'
-import mazinPic   from '../../assets/logos/default.jpeg'
+import lee from '../../assets/headshots/dr-lee.png'
+import hoilett from '../../assets/headshots/dr-hoilett.png'
 
-import OfficerProfile from './OfficerProfile';
-import SeniorExecProfile from './SeniorExecProfile';
-import AdvisorProfile from './AdvisorProfile';
+import OfficerProfile from './components/Officer';
+import AdvisorProfile from './components/Advisor';
 
-let jsonData = require('../text.json');
+const execList = require('./boardList.json');
+const imgList = {
+  "president": pres,
+  "vice": vice,
+  "treasurer": treasurer,
+  "secretary": secretary,
+  "eNi": eNi,
+  "rNd": rNd,
+  "nNe": nNe,
+  "damen": damen,
+  "lee": lee,
+  "hoilett": hoilett
+};
 
 export default function AboutPage() {
   return (
@@ -34,42 +41,62 @@ export default function AboutPage() {
         </div>
 
         <div>
-          <p>{jsonData.aboutText}</p>
+          <p>{execList.introTxt.about}</p>
         </div>
 
         <ol>
-          <li>{jsonData.goal1}</li>
-          <li>{jsonData.goal2}</li>
-          <li>{jsonData.goal3}</li>
+          <li>{execList.introTxt.goal1}</li>
+          <li>{execList.introTxt.goal2}</li>
+          <li>{execList.introTxt.goal3}</li>
         </ol>
       </div>
 
-      <div className='officersInfo'>
-        <h2 className='subHeader'>MIND Officers</h2>
-        <OfficerProfile name={jsonData.pres.name} pos={jsonData.pres.pos} desc={jsonData.pres.desc} image={presPic} />
-        <OfficerProfile name={jsonData.vice.name} pos={jsonData.vice.pos} desc={jsonData.vice.desc} image={vicePic} />
-        <OfficerProfile name={jsonData.trea.name} pos={jsonData.trea.pos} desc={jsonData.trea.desc} image={treaPic} />
-        <OfficerProfile name={jsonData.secr.name} pos={jsonData.secr.pos} desc={jsonData.secr.desc} image={secrPic} />
-        <OfficerProfile name={jsonData.entr.name} pos={jsonData.entr.pos} desc={jsonData.entr.desc} image={entrPic} />
-        <OfficerProfile name={jsonData.rdev.name} pos={jsonData.rdev.pos} desc={jsonData.rdev.desc} image={rdevPic} />
-        <OfficerProfile name={jsonData.nete.name} pos={jsonData.nete.pos} desc={jsonData.nete.desc} image={netePic} />
+      <div className='break'/>
+
+      <h2 className='subHeader'>MIND Officers</h2>
+      <div className='memberProfiles' id='officers'>
+        {getMembers(execList.officers, 'Officers')}
       </div>
 
-      <div className='seniorExecsInfo'>
-        <h2 className='subHeader'>MIND Senior Executives</h2>
-        <SeniorExecProfile name={"Damen Wilson"}       desc={jsonData.seniorExec.damen.desc}    image={damenPic } />
-        <SeniorExecProfile name={"Jack Stickney"}      desc={jsonData.seniorExec.jack.desc}     image={jackPic  } />
-        <SeniorExecProfile name={"Parker van Emmerik"} desc={jsonData.seniorExec.parker.desc}   image={parkerPic} />
-        <SeniorExecProfile name={"Scott Kenning"}      desc={jsonData.seniorExec.scott.desc}    image={scottPic } />
-      </div> 
+      <div className='break'/>
 
-      <div className='advisorsInfo'>
-        <h2 className='subHeader'>MIND Advisors</h2>
-        <AdvisorProfile name={"Dr. Hyowon Lee"}      desc={jsonData.pres.desc} image={leePic    } />
-        <AdvisorProfile name={"Dr. Orlando Hoilett"} desc={jsonData.vice.desc} image={hoilettPic} />
-        <AdvisorProfile name={"Mazin Hakim"}         desc={jsonData.trea.desc} image={mazinPic  } />
+      <h2 className='subHeader'>MIND Senior Executives</h2>
+      <div className='memberProfiles' id='seniorExecs'>
+        {getMembers(execList.seniorExecs, 'Senior Execs')}
+      </div>
+      
+      <div className='break'/>
+
+      <h2 className='subHeader'>MIND Advisors</h2>
+      <div className='memberProfiles' id='advisors'>
+        {getMembers(execList.advisors, 'Advisors')}
       </div>
 
     </div>
   );
 };
+
+function getMembers(memberList, type) {
+  const formattedProfiles = [];
+  for (const index in memberList) {
+    const member = memberList[index];
+    if (type === 'Officers') {
+      formattedProfiles.push(<OfficerProfile
+        id={member.id}
+        imgSrc={imgList[member.id]}
+        name={member.name}
+        position={member.position}
+        major={member.major}
+        description={member.description}
+        outlook={member.outlook}
+        linkedIn={member.linkedIn} />)
+    } else {
+      formattedProfiles.push(<AdvisorProfile
+        id={member.id}
+        imgSrc={imgList[member.id]}
+        name={member.name}
+        position={member.position} />)
+    }
+  }
+  return formattedProfiles;
+}
