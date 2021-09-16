@@ -56,6 +56,30 @@
         "desc": "Despite being a computer engineering major, I spent a lot of time as a CAD designer on Hydra-Check. I love MIND because it provides a fun, collaborative experience with peers who are motivated and passionate about what they do. MIND gives me an outlet to try out a variety of roles, and to perform applied engineering and make an impact on the world. As Director of Networking and Events, I hope to expand our social media following-base, improve alumni relations, and establish a professional development series for MIND."
     },
 
+    "advisor1":
+    {
+        "name": "Dr. Hyowon Lee",
+        "desc": "Dr. Hyowon (Hugh) Lee is an Assistant Professor of Biomedical Engineering at Purdue University. He received his B.A. in Neuroscience from Colorado College and his M.S. and Ph.D. in Biomedical Engineering from the University of California, Los Angeles. Dr. Lee previously worked as a senior engineer for St. Jude Medical's Implantable Electronics Systems Division, focusing on advanced fabrication technologies to overcome manufacturing challenges associated with implantable electronic devices such as pacemakers, ICDs, DBS, and other neurostimulation devices. His current research interests include development of implantable microsystems for neurological application, minimally invasive neurostimulation devices, MEMS-cell interface, and micro and nanofabrication technologies."
+    },
+
+    "advisor2":
+    {
+        "name": "Dr. Orlando Hoilett",
+        "desc": "Dr. Orlando Hoilett is a Postdoctoral Researcher at Purdue University. He received his B.A. in Biomedical Engineering from Vanderbilt University and his Ph.D. in Biomedical Engineering from Purdue University. His research involves the engineering of biometric wearables to assist substance abuse disorder patients, mothers with newborns, and more. Orlando has also been an instrumental part of the Milestones Workshops, leading Intro to Electronics, Desigining a Smartwatch, Smart Healthcare, and iOS App Development courses."
+    },
+
+    "advisor3":
+    {
+        "name": "Mazin Hakim",
+        "desc": "Graduate Student in Biomedical Engineering at Purdue University\nB.A. Chemistry, Wabash College"
+    },
+
+    "advisor4":
+    {
+        "name": "Neal Patel",
+        "desc": "MD/PhD Candidate at IUSM and Purdue University\nB.S. Biomedical Engineering, Purdue University"
+    },
+
     "seniorExec":
     {
         "damen":
@@ -76,6 +100,51 @@
         "scott":
         {
             "desc": "I am majoring in Electrical Engineering at Purdue."
+        }
+    },
+
+    "alumni":
+    {
+        "sriram":
+        {
+            "name": "Sriram Boppana",
+            "desc": "Founder/President (2015-2016)"
+        },
+
+        "pablo":
+        {
+            "name": "Pablo Argote",
+            "desc": "President (2016-2017)"
+        },
+
+        "dane":
+        {
+            "name": "Dane Albaugh",
+            "desc": "Director of Entrepreneurship & Ideation (2016-2017)"
+        },
+
+        "sam":
+        {
+            "name": "Sam Kuhns",
+            "desc": "Director of Research & Development (2017-2018)"
+        },
+
+        "scott":
+        {
+            "name": "Scott Guidoboni",
+            "desc": "Director of Entrepreneurship & Ideation (2017-2018)"
+        },
+
+        "pragna":
+        {
+            "name": "Pragna Upputuri",
+            "desc": "Director of Entrepreneurship and Ideation (2018-2019), Vice President (2019-2020), President (2020-2021)"
+        },
+
+        "david":
+        {
+            "name": "David Miller",
+            "desc": "Director of Research and Development (2017-2018)"
         }
     }
 }

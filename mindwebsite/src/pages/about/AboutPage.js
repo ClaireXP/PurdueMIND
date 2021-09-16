@@ -65,9 +65,10 @@ export default function AboutPage() {
 
       <div className='advisorsInfo'>
         <h2 className='subHeader'>MIND Advisors</h2>
-        <AdvisorProfile name={"Dr. Hyowon Lee"}      desc={jsonData.pres.desc} image={leePic    } />
-        <AdvisorProfile name={"Dr. Orlando Hoilett"} desc={jsonData.vice.desc} image={hoilettPic} />
-        <AdvisorProfile name={"Mazin Hakim"}         desc={jsonData.trea.desc} image={mazinPic  } />
+        <AdvisorProfile name={jsonData.advisor1.name}      desc={jsonData.advisor1.desc} image={leePic    } />
+        <AdvisorProfile name={jsonData.advisor2.name} desc={jsonData.advisor2.desc} image={hoilettPic} />
+        <AdvisorProfile name={jsonData.advisor3.name}         desc={jsonData.advisor3.desc} image={mazinPic  } />
+        <AdvisorProfile name={jsonData.advisor4.name}          desc={jsonData.advisor4.desc} image={mazinPic  } />
       </div>
 
     </div>
