@@ -1,28 +1,68 @@
 import './AlumniPage.css';
 import '../../App.css';
 
-// import damenPic  from '../../assets/logos/damen.png'
-// import jackPic   from '../../assets/logos/default.jpeg'
-// import parkerPic from '../../assets/logos/default.jpeg'
-// import scottPic  from '../../assets/logos/default.jpeg'
+import sriram     from '../../assets/headshots/sriram.png'
+import pablo      from '../../assets/headshots/pablo.png'
+import samuel     from '../../assets/headshots/samuel.png'
+import dane       from '../../assets/headshots/default.png'
+import scott      from '../../assets/headshots/scott.png'
+import pragna     from '../../assets/headshots/pragna.png'
+import david      from '../../assets/headshots/default.png'
+import michaeld   from '../../assets/headshots/default.png'
+import srinivas   from '../../assets/headshots/srinivas.png'
+import jason      from '../../assets/headshots/default.png'
+import barrett    from '../../assets/headshots/barrett.png'
+import michaelw   from '../../assets/headshots/default.png'
+import ali        from '../../assets/headshots/default.png'
+import neal       from '../../assets/headshots/neal.png'
+import matt       from '../../assets/headshots/default.png'
 
-// import AlumniProfile from './AlumniProfile';
+import AlumniProfile from './components/Alumni';
 
-// const alumniList = require('./alumniList.json');
+const alumniList = require('./alumniList.json');
+const imgList = {
+  "sriram"    : sriram,
+  "pablo"     : pablo,
+  "samuel"    : samuel,
+  "dane"      : dane,
+  "scott"     : scott,
+  "pragna"    : pragna,
+  "david"     : david,
+  "michaeld"  : michaeld,
+  "srinivas"  : srinivas,
+  "jason"     : jason,
+  "barrett"   : barrett,
+  "michaelw"  : michaelw,
+  "ali"       : ali,
+  "neal"      : neal,
+  "matt"      : matt
+};
 
 export default function AlumniPage() {
   return (
     <div className='alumniPage'>
-      <div className='seniorExecsInfo'>
-        <h2 className='subHeader'>Alumni Testimonials</h2>
-        {/* <AlumniProfile name={"Pablo Argote"}    desc={jsonData.seniorExec.damen.desc}    image={damenPic } />
-        <AlumniProfile name={"Sriram Boppana"}  desc={jsonData.seniorExec.jack.desc}     image={jackPic  } />
-        <AlumniProfile name={"Dane Albaugh"}    desc={jsonData.seniorExec.parker.desc}   image={parkerPic} />
-        <AlumniProfile name={"Sam Kuhns"}       desc={jsonData.seniorExec.scott.desc}    image={scottPic } />
-        <AlumniProfile name={"Scott Guidoboni"} desc={jsonData.seniorExec.damen.desc}    image={damenPic } />
-        <AlumniProfile name={"Pragna Upputuri"} desc={jsonData.seniorExec.parker.desc}   image={parkerPic} />
-        <AlumniProfile name={"David Miller"}    desc={jsonData.seniorExec.scott.desc}    image={scottPic } /> */}
+
+      <h2 className='subHeader'>MIND Alumni</h2>
+      <div className='memberProfiles' id='officers'>
+        {getMembers(alumniList.alumni, 'Alumni')}
       </div>
+
     </div>
   );
 };
+
+function getMembers(memberList, type) {
+  const formattedProfiles = [];
+  for (const index in memberList) {
+    const member = memberList[index];
+    formattedProfiles.push(<AlumniProfile
+      id={member.id}
+      imgSrc={imgList[member.id]}
+      name={member.name}
+      position={member.position}
+      major={member.major}
+      description={member.description}
+      linkedIn={member.linkedIn} />)
+  }
+  return formattedProfiles;
+}

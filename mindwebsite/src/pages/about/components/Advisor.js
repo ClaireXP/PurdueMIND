@@ -1,7 +1,7 @@
 import './Officer.css';
 import '../../../App.css';
 
-import defaultImg from '../../../assets/headshots/default.jpeg'
+import defaultImg from '../../../assets/headshots/default.png'
 
 export default function AdvisorProfile(
   {
