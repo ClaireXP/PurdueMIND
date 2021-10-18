@@ -25,6 +25,9 @@ export default function App() {
 
       <Switch>
           <Route exact path='/'>
+            <HomePage />
+          </Route>
+          <Route exact path='/PurdueMIND/'>
             <HomePage/>
           </Route>
           <Route path='/AboutUs'>
