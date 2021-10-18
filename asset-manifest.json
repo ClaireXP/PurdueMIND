@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PurdueMIND/static/css/main.92dd4b60.chunk.css",
-    "main.js": "/PurdueMIND/static/js/main.f634d372.chunk.js",
-    "main.js.map": "/PurdueMIND/static/js/main.f634d372.chunk.js.map",
+    "main.js": "/PurdueMIND/static/js/main.fcfca6a7.chunk.js",
+    "main.js.map": "/PurdueMIND/static/js/main.fcfca6a7.chunk.js.map",
     "runtime-main.js": "/PurdueMIND/static/js/runtime-main.a8af2e87.js",
     "runtime-main.js.map": "/PurdueMIND/static/js/runtime-main.a8af2e87.js.map",
     "static/css/2.a2e22d9a.chunk.css": "/PurdueMIND/static/css/2.a2e22d9a.chunk.css",
@@ -57,6 +57,6 @@
     "static/css/2.a2e22d9a.chunk.css",
     "static/js/2.777762a1.chunk.js",
     "static/css/main.92dd4b60.chunk.css",
-    "static/js/main.f634d372.chunk.js"
+    "static/js/main.fcfca6a7.chunk.js"
   ]
 }
