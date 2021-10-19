@@ -36,7 +36,7 @@ export default function AboutPage() {
     <div className='aboutPage'>
 
       <div className='aboutInfo'>
-        <div id='aboutHeader'>
+        <div className='header'>
           <h1>About Us</h1>
         </div>
 
@@ -87,6 +87,7 @@ function getMembers(memberList, type) {
         name={member.name}
         position={member.position}
         major={member.major}
+        minor={member.minor}
         description={member.description}
         outlook={member.outlook}
         linkedIn={member.linkedIn} />)

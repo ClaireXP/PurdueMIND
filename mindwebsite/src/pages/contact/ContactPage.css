@@ -6,10 +6,8 @@
   align-items: center;
 }
 
-#contactHeader {
-  margin-top: 20px;
+#contactDesc {
   margin-bottom: 20px;
-  padding: 5px;
-
+  width: 80%;
   text-align: center;
 }

@@ -36,28 +36,12 @@
   margin-inline: auto;
 
   background-color: #c9b38c50;
+  position: relative;
+  z-index: -1;
 }
 
-#nextMeeting {
-  text-align: center;
-  border: 5px solid #C9B38C;
-  height: fit-content;
-  width: 50vw;
-}
-
-#meetingInfo {
-  display: flex;
-  margin-bottom: 8px;
-}
-
-#locationTxt {
-  margin-left: 5vw;
-  margin-right: auto;
-}
-
-#dateTxt {
-  margin-right: 5vw;
-  margin-left: auto;
+#instaFeed {
+  max-width: 800px;
 }
 
 #breakBeforeEvents {

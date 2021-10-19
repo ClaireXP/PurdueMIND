@@ -38,9 +38,10 @@ export default function HomePage() {
       
       <h2 id='eventsTxt'>Instagram Feed</h2>
       <Feed
-        userName="purdue.mind"
+        id='instaFeed'
+        userName='purdue.mind'
         limit={20}
-        width={window.innerWidth * .45}
+        width='100%'
         maxContainerHeight={475}
       />
 
@@ -51,7 +52,8 @@ export default function HomePage() {
           id='calendar' title='MIND Calendar'
           src='https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ceb888&amp;ctz=America%2FIndiana%2FIndianapolis&amp;src=ZGZjcGRlb245dmcwczAzYzk0dWRvYzVxbWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0'
           style={{border: 'solid 1px #777'}}
-          width={window.innerWidth * .8} height='600'
+          width={window.innerWidth * .8}
+          height='600'
           frameborder='0' scrolling='no'
       />
     </div>

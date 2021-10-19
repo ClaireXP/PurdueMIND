@@ -6,10 +6,8 @@ import '../../App.css';
 export default function ContactPage() {
   return (
     <div className='contactPage'>
-      <div id='contactHeader'>
-        <h1>Contact Us</h1>
-        <h4>Contact us at purdueuniversitymind@gmail.com or send us a message below!</h4>
-      </div>
+      <h1 className='header'>Contact Us</h1>
+      <h4 id="contactDesc">Contact us at <a className='outlook' href={`mailto:purdueuniversitymind@gmail.com`}>purdueuniversitymind@gmail.com</a> or send us a message below!</h4>
 
       <ContactForm/>
     </div>

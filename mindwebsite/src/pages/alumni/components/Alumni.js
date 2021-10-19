@@ -12,6 +12,8 @@ export default function AlumniProfile(
     name,
     position,
     major,
+    minor = '',
+    outlook = ''
   }) {
   return (
     <div className='profile'>
@@ -21,8 +23,12 @@ export default function AlumniProfile(
         <h3 className='name'>{name}</h3>
         <h4 className='position'>{position}</h4>
         <h5 className='major'>{major}</h5>
+        <h5 className='major'>{minor}</h5>
+        <a className='outlook' href={`mailto:${outlook}`}>{outlook}</a>
         <br/>
       </div>
+
+      <div id='spacer'/>
     </div>
   );
 };

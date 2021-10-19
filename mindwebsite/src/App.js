@@ -1,6 +1,6 @@
 import './App.css';
-import NavBar from './pages/NavBar';
-import Footer from './pages/Footer';
+import Navbar from './navbar/Navbar';
+import Footer from './footer/Footer';
 import HomePage from './pages/home/HomePage'
 import AboutPage from './pages/about/AboutPage'
 import ProjectsPage from './pages/projects/ProjectsPage'
@@ -21,7 +21,7 @@ export default function App() {
       <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin/>
       <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' rel="stylesheet" />
         
-      <NavBar />
+      <Navbar />
 
       <Switch>
           <Route exact path='/'>

@@ -25,13 +25,17 @@ const imgList = {
 export default function ProjectsPage() {
   return (
     <div className='projectsPage'>
+      <h1 className='header'>Projects</h1>
+      
       <div className='projectsContainer'>
-        <h1 className="sectionHeader" id="currentProjects">Current Mind Projects</h1>
+        <h2 className="sectionHeader" id="currentProjects">Current Mind Projects</h2>
         {getProjects(projectList.currentProjects)}
       </div>
 
+      <div id='spacer'/>
+
       <div className='projectsContainer'>
-        <h1 className="sectionHeader">Past Mind Projects</h1>
+        <h2 className="sectionHeader">Past Mind Projects</h2>
         {getProjects(projectList.pastProjects)}
       </div>
     </div>

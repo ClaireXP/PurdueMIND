@@ -33,7 +33,7 @@
   height: 100%;
 }
 
-#aboutHeader {
+.header {
   margin-top: 50px;
   text-align: center;
 }

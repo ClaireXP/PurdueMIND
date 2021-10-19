@@ -19,19 +19,11 @@
       "name": "Kevin Alessandro Bautista",
       "id": "vice",
       "position": "Vice President",
-      "major": "Biomedical Engineering '23\nMinor in Electrical and Computer Engineering",
+      "major": "Biomedical Engineering '23",
+      "minor": "Minor in Electrical and Computer Engineering",
       "description": "MIND was my introduction to BME as a freshman, and a big reason of why I chose to major in it and go for a minor as well. I've been able to learn so much about innovation and instrumentation, and have been lucky to be surrounded with other amazing and diverse members. Moving forward, I hope to give other students more learning opportunities and experiences making great ideas that lead to global innovations :)",
       "outlook": "kbautis@purdue.edu",
       "linkedIn": "https://www.linkedin.com/in/kevin-alessandro-bautista/"
-    },
-    {
-      "name": "Akio Fujita",
-      "id": "treasurer",
-      "position": "Treasurer",
-      "major": "Computer Engineering '23",
-      "description": "I have been a part of MIND since freshman year and I enjoy working on the various biomedical projects with other members. MIND has helped me grow both technically and professionally and I am grateful to have had the opportunity to be part of this club. As an officer, I hope to reach out to more Purdue students and give them a chance to work on cool projects with MIND.",
-      "outlook": "afujita@purdue.edu",
-      "linkedIn": "https://www.linkedin.com/in/akio-fujita-1ca/"
     },
     {
       "name": "Kyle Chang",
@@ -43,6 +35,15 @@
       "linkedIn": "https://www.linkedin.com/in/chihkai-chang/"
     },
     {
+      "name": "Akio Fujita",
+      "id": "treasurer",
+      "position": "Treasurer",
+      "major": "Computer Engineering '23",
+      "description": "I have been a part of MIND since freshman year and I enjoy working on the various biomedical projects with other members. MIND has helped me grow both technically and professionally and I am grateful to have had the opportunity to be part of this club. As an officer, I hope to reach out to more Purdue students and give them a chance to work on cool projects with MIND.",
+      "outlook": "afujita@purdue.edu",
+      "linkedIn": "https://www.linkedin.com/in/akio-fujita-1ca/"
+    },
+    {
       "name": "Elyssia Wellington",
       "id": "eNi",
       "position": "Director of Entrepreneurship & Ideation",
@@ -52,10 +53,10 @@
       "linkedIn": "https://www.linkedin.com/in/elyssiawellington/"
     },
     {
-      "name": "Matthew Starobat",
+      "name": "Matthew Starobrat",
       "id": "rNd",
       "position": "Director of Research & Development",
-      "major": "Biomedical Engineering '23",
+      "major": "Robotics Engineering Technology '23",
       "description": "I’ve found MIND to be a very welcoming and helpful community of people wanting to get hands on experience with research and production. It’s casual enough to be very approachable and easy to fit into my schedule while also being something I look forward to each week. Especially being outside of the biomedical major, I mainly hope to bring my manufacturing knowledge and enable others to be more ambitious with their projects and improve everyone else’s club experience.",
       "outlook": "mstarobr@purdue.edu",
       "linkedIn": "https://www.linkedin.com/in/matthew-starobrat-8953741a0/"
@@ -64,8 +65,9 @@
       "name": "Claire Poukey",
       "id": "nNe",
       "position": "Director of Networking & Events",
-      "major": "Computer Engineering '23\nMinor in Communications",
-      "description": "Despite being a computer engineering major, I spent a lot of time as a CAD designer on Hydra-Check. I love MIND because it provides a fun, collaborative experience with peers who are motivated and passionate about what they do. MIND gives me an outlet to try out a variety of roles, and to perform applied engineering and make an impact on the world. As Director of Networking and Events, I hope to expand our social media following-base, improve alumni relations, and establish a professional development series for MIND.",
+      "major": "Computer Engineering '23",
+      "minor": "Minor in Communications",
+      "description": "I love MIND because I get to spend my time with peers who are passionate about what they do. MIND allows me try out a variety of roles and collaboratively perform applied engineering to make an impact. As Director of Networking and Events, I hope to expand our social media following-base, improve alumni relations, and establish a professional development series.",
       "outlook": "cpoukey@purdue.edu",
       "linkedIn": "https://www.linkedin.com/in/clairepoukey/"
     }
@@ -74,22 +76,22 @@
     {
       "name": "Damen Wilson",
       "id": "damen",
-      "position": "Major: Biomedical Engineering"
+      "position": "Biomedical Engineering"
     },
     {
       "name": "Jack Stickney",
       "id": "jack",
-      "position": "Major: Biomedical Engineering"
+      "position": "Biomedical Engineering"
     },
     {
       "name": "Parker van Emmerik",
       "id": "parker",
-      "position": "Major: Biomedical Engineering"
+      "position": "Biomedical Engineering"
     },
     {
       "name": "Scott Kenning",
       "id": "scott",
-      "position": "Major: Electrical Engineering"
+      "position": "Electrical Engineering"
     }
   ],
   "advisors": [

@@ -3,105 +3,108 @@
     {
       "name": "Sriram Boppana",
       "id": "sriram",
-      "major": "BME, EE Minor",
+      "major": "Biomedical Engineering",
+      "minor": "Minor in Electrical Engineering",
       "position": "Founder/President (2015-16)",
       "outlook": "boppana113@gmail.com"
     },
     {
       "name": "Pablo F. Argote",
       "id": "pablo",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "President (2016-17)",
       "outlook": "pablofargote@gmail.com"
     },
     {
+      "name": "Pragna Upputuri",
+      "id": "pragna",
+      "major": "Biomedical Engineering",
+      "position": "Director of Entrepreneurship and Innovation (2018-19),\nVice President (2019-20),\nPresident (2020-21)",
+      "outlook": "uepragna@gmail.com"
+    },
+    {
       "name": "Sam Kuhns",
       "id": "samuel",
-      "major": "CS, Psych Minor",
+      "major": "Computer Science",
+      "minor": "Minor in Psychology",
       "position": "Director of Research and Development (2017-18)",
       "outlook": "smlkuhns@gmail.com"
     },
     {
+      "name": "David Miller",
+      "id": "david",
+      "major": "Biomedical Engineering",
+      "position": "Director of Research and Development (2017-18)",
+      "outlook": "davidmiller5350@gmail.com"
+    },
+    {
       "name": "Dane Albaugh",
       "id": "dane",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "Director Entrepreneurship & Ideation",
       "outlook": "dane@predictivewear.com"
     },
     {
       "name": "Scott Guidoboni",
       "id": "scott",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "Director of Entrepreneurship & Ideation",
       "outlook": "scottguido55@gmail.com"
     },
     {
-      "name": "Pragna Upputuri",
-      "id": "pragna",
-      "major": "BME",
-      "position": "Director of Entrepreneurship and Innovation (2018-19),\nVice President (2019-20),\nPresident (2020-21)",
-      "outlook": "uepragna@gmail.com"
-    },
-    {
-      "name": "David Miller",
-      "id": "david",
-      "major": "BME",
-      "position": "Research and Development Director (2017-18)",
-      "outlook": "davidmiller5350@gmail.com"
-    },
-    {
       "name": "Michael Drakopoulos",
       "id": "michaeld",
-      "major": "BME",
-      "position": "Vice President (2015-16)",
-      "outlook": "N/A"
+      "major": "Biomedical Engineering",
+      "position": "Vice President (2015-16)"
     },
     {
       "name": "Srinivas Govindan",
       "id": "srinivas",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "President (2019-20)",
       "outlook": "srini.govi@yahoo.com"
     },
     {
       "name": "Jason Ummel",
       "id": "jason",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "President (2017-18)",
       "outlook": "jasonummel1@gmail.com"
     },
     {
       "name": "Barrett Davis",
       "id": "barrett",
-      "major": "BME, ECE Minor",
-      "position": "Treasurer, (2016-17)",
+      "major": "Biomedical Engineering",
+      "minor": "Minor in Electrical Computer Engineering",
+      "position": "Treasurer (2016-17)",
       "outlook": "davis797@purdue.edu"
     },
     {
       "name": "Michael Thomas Williams",
       "id": "michaelw",
-      "major": "BME, ECE and Biology Minor",
+      "major": "Biomedical Engineering",
+      "minor": "Minors in Electrical Computer Engineering and Biology",
       "position": "Secretary (2017-18)",
       "outlook": "pablofargote@gmail.com"
     },
     {
       "name": "Ali AbuSaleh",
       "id": "ali",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "Treasurer (2018-2019)",
       "outlook": "Aliabusaleh1997@gmail.com"
     },
     {
       "name": "Neal Patel",
       "id": "neal",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "Vice President (2016-17)",
       "outlook": "nealpatel96@gmail.com"
     },
     {
       "name": "Matt Tharp",
       "id": "matt",
-      "major": "BME",
+      "major": "Biomedical Engineering",
       "position": "Mind General Member",
       "outlook": "tharpm@iu.edu"
     }

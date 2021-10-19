@@ -42,7 +42,7 @@ export default function AlumniPage() {
   return (
     <div className='alumniPage'>
 
-      <h2 className='subHeader'>MIND Alumni</h2>
+      <h1 className='header'>MIND Alumni</h1>
       <div className='memberProfiles' id='officers'>
         {getMembers(alumniList.alumni, 'Alumni')}
       </div>
@@ -61,7 +61,9 @@ function getMembers(memberList, type) {
       name={member.name}
       position={member.position}
       major={member.major}
+      minor={member.minor}
       description={member.description}
+      outlook={member.outlook}
       linkedIn={member.linkedIn} />)
   }
   return formattedProfiles;
