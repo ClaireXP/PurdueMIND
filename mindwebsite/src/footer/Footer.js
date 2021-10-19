@@ -31,7 +31,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <h5>CREATED AND MAINTAINED BY PURDUE MIND | COPYRIGHT 2021 | ALL RIGHTS RESERVED</h5>
+      <h5 id='copyright'>CREATED AND MAINTAINED BY PURDUE MIND | COPYRIGHT 2021 | ALL RIGHTS RESERVED</h5>
     </div>
   );
 }
