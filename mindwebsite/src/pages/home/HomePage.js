@@ -23,14 +23,42 @@ export default function HomePage() {
       </div>
 
       <div id='slideshowContainer'>
-        <Carousel autoplay='true' autoplaySpeed='3500' slideHeight='300px' cellPadding={ 5 }>
-          <img alt='' src={pic1}/>
-          <img alt='' src={pic2}/>
-          <img alt='' src={pic3}/>
-          <img alt='' src={pic4}/>
-          <img alt='' src={pic5}/>
-          <img alt='' src={pic6}/>
-          <img alt='' src={pic7}/>
+        <Carousel id='slideshow' autoplay='true' autoplaySpeed='3500' viewport='300px' slideHeight='300px' cellPadding={ 5 }>
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic1}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic2}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic3}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic4}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic5}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic6}
+            />
+            <img
+              className='carouselPic'
+              alt=''
+              src={pic7}
+            />
         </Carousel>
       </div>
 
