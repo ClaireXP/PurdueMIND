@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.74f77c15.chunk.css",
-    "main.js": "/static/js/main.853a0f9a.chunk.js",
-    "main.js.map": "/static/js/main.853a0f9a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1788cae2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1788cae2.js.map",
+    "main.css": "/static/css/main.714fe355.chunk.css",
+    "main.js": "/static/js/main.a01dc0f4.chunk.js",
+    "main.js.map": "/static/js/main.a01dc0f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01afae91.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01afae91.js.map",
     "static/css/2.a2e22d9a.chunk.css": "/static/css/2.a2e22d9a.chunk.css",
-    "static/js/2.49728cc2.chunk.js": "/static/js/2.49728cc2.chunk.js",
-    "static/js/2.49728cc2.chunk.js.map": "/static/js/2.49728cc2.chunk.js.map",
-    "static/js/3.63a981b0.chunk.js": "/static/js/3.63a981b0.chunk.js",
-    "static/js/3.63a981b0.chunk.js.map": "/static/js/3.63a981b0.chunk.js.map",
+    "static/js/2.0b866fc6.chunk.js": "/static/js/2.0b866fc6.chunk.js",
+    "static/js/2.0b866fc6.chunk.js.map": "/static/js/2.0b866fc6.chunk.js.map",
+    "static/js/3.6525cc78.chunk.js": "/static/js/3.6525cc78.chunk.js",
+    "static/js/3.6525cc78.chunk.js.map": "/static/js/3.6525cc78.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a2e22d9a.chunk.css.map": "/static/css/2.a2e22d9a.chunk.css.map",
-    "static/css/main.74f77c15.chunk.css.map": "/static/css/main.74f77c15.chunk.css.map",
-    "static/js/2.49728cc2.chunk.js.LICENSE.txt": "/static/js/2.49728cc2.chunk.js.LICENSE.txt",
+    "static/css/main.714fe355.chunk.css.map": "/static/css/main.714fe355.chunk.css.map",
+    "static/js/2.0b866fc6.chunk.js.LICENSE.txt": "/static/js/2.0b866fc6.chunk.js.LICENSE.txt",
     "static/media/akio.b267410a.png": "/static/media/akio.b267410a.png",
     "static/media/barrett.0014b743.png": "/static/media/barrett.0014b743.png",
     "static/media/claire.96cc7e46.png": "/static/media/claire.96cc7e46.png",
@@ -53,10 +53,10 @@
     "static/media/walkerProject.924b3303.png": "/static/media/walkerProject.924b3303.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1788cae2.js",
+    "static/js/runtime-main.01afae91.js",
     "static/css/2.a2e22d9a.chunk.css",
-    "static/js/2.49728cc2.chunk.js",
-    "static/css/main.74f77c15.chunk.css",
-    "static/js/main.853a0f9a.chunk.js"
+    "static/js/2.0b866fc6.chunk.js",
+    "static/css/main.714fe355.chunk.css",
+    "static/js/main.a01dc0f4.chunk.js"
   ]
 }
