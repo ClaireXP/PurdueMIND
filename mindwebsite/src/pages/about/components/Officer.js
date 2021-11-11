@@ -1,13 +1,11 @@
 import './Officer.css';
 import '../../../App.css';
 
-import defaultImg from '../../../assets/headshots/default.png'
-
 export default function OfficerProfile(
   {
     id,
-    imgSrc = defaultImg,
-    alt = '404: No Image',
+    imgSrc = "",
+    alt = 'https://drive.google.com/uc?export=view&id=',
     name,
     position,
     major,

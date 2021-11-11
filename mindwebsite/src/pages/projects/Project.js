@@ -1,12 +1,10 @@
 import './Project.css';
 import '../../App.css';
 
-import defaultImg from '../../assets/projects/defaultImg.jpg'
-
 export default function Projects(
   {
     id,
-    imgSrc = defaultImg,
+    imgSrc = 'https://drive.google.com/uc?export=view&id=1pnitzFNzovrKFX_8tFv22vjohCrWPdvp',
     alt = '404: No Image',
     title,
     description
