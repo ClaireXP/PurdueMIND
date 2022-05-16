@@ -6,6 +6,7 @@ import AboutPage from './pages/about/AboutPage'
 import ProjectsPage from './pages/projects/ProjectsPage'
 import AlumniPage from './pages/alumni/AlumniPage'
 import ContactPage from './pages/contact/ContactPage'
+import FooterContactAlt from './footer/FooterContactAlt'
 
 import {
   BrowserRouter as Router,
@@ -26,25 +27,30 @@ export default function App() {
       <Switch>
           <Route exact path='/'>
             <HomePage />
+            <Footer/>
           </Route>
           <Route exact path='/PurdueMIND/'>
             <HomePage/>
+            <Footer/>
           </Route>
           <Route path='/AboutUs'>
             <AboutPage/>
+            <Footer/>
           </Route>
           <Route path='/Projects'>
             <ProjectsPage/>
+            <Footer/>
           </Route>
           <Route path='/Alumni'>
             <AlumniPage/>
+            <Footer/>
           </Route>
           <Route path='/Contact'>
             <ContactPage/>
+            <FooterContactAlt/>
           </Route>
       </Switch>
       
-      <Footer/>
       </div>
     </Router>
   );
