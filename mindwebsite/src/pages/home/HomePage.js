@@ -1,14 +1,6 @@
 import './HomePage.css';
 import '../../App.css';
 
-import pic1 from '../../assets/slideCarousel/pic1.jpeg';
-import pic2 from '../../assets/slideCarousel/pic2.jpeg';
-import pic3 from '../../assets/slideCarousel/pic3.jpeg';
-import pic4 from '../../assets/slideCarousel/pic4.jpeg';
-import pic5 from '../../assets/slideCarousel/pic5.jpeg';
-import pic6 from '../../assets/slideCarousel/pic6.jpeg';
-import pic7 from '../../assets/slideCarousel/pic7.jpeg';
-
 import Feed from "instagram-feed-embed";
 
 import Carousel from 'react-img-carousel';
@@ -27,37 +19,37 @@ export default function HomePage() {
             <img
               className='carouselPic'
               alt=''
-              src={pic1}
+              src='https://drive.google.com/uc?export=view&id=1RFUmbm5AIpjAE182eDTbtMdAjAXfefYL'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic2}
+              src='https://drive.google.com/uc?export=view&id=132vTHosT7TuoguIWLzpPHiwfBpzFDr2o'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic3}
+              src='https://drive.google.com/uc?export=view&id=1MLlg_3jrivuNVChxpNas3Yd6DUiGUl2_'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic4}
+              src='https://drive.google.com/uc?export=view&id=1YxgH9U8WV9GBey7fKE_jEyuW0epgnRf4'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic5}
+              src='https://drive.google.com/uc?export=view&id=1uNQNz7DFm8huEKJaRHlYdala3m6zI2qm'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic6}
+              src='https://drive.google.com/uc?export=view&id=1Rwwp8Qe7eyjJe4_PB9HqhWfdtHSrsnKR'
             />
             <img
               className='carouselPic'
               alt=''
-              src={pic7}
+              src='https://drive.google.com/uc?export=view&id=1d7wy_vaPE28MHYf5Zw4kQ4qkJJ5SJJxv'
             />
         </Carousel>
       </div>
